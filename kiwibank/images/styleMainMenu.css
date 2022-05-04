@@ -1,0 +1,36 @@
+.root{
+	-fx-background-color: #ccff99;
+	-fx-background-image: url("kiwibank.png");
+	-fx-background-size: stretch;
+	-fx-border-style: solid inside;
+	-fx-border-color: brown;
+	-fx-grid-lines-visible: false;
+	}
+.pane 	{
+    	-fx-border-color: black;
+	}
+.button{
+	-fx-text-fill: #FFFAFA;
+	-fx-font-weight: bold;
+	-fx-background-color: #DAA520;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+	}
+.button:hover{
+	-fx-background-color: #808000;
+	-fx-text-fill: blue;
+	}
+.button:passwordForgot{
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+	-fx-background-color: #DAA520;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+	}
+
+#turnOff{
+	-fx-border-color: rgb(49, 89, 23);
+	-fx-border-radius: 50;
+	}
+.turnOffScene{-fx-background-color: black;
+
+	}
+			

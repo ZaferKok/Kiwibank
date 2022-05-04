@@ -1,0 +1,18 @@
+.root{
+	-fx-background-color: #ccff99;
+	-fx-background-size: stretch;
+	-fx-border-style: solid inside;
+	-fx-border-color: red;
+	-fx-grid-lines-visible: true;
+	}
+.button{
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 15;
+	-fx-background-color: green;
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+	}
+.button:hover{
+	-fx-background-color: yellow;
+	-fx-text-fill: green;
+	}	
